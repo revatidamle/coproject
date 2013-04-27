@@ -1,0 +1,80 @@
+Running: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib uni9000_ver -lib aim_ver -lib cpld_ver -lib xilinxcorelib_ver -o C:/coproj/proj/testbench_isim_beh.exe -prj C:/coproj/proj/testbench_beh.prj work.testbench work.glbl 
+ISim M.63c (signature 0xb869381d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/coproj/proj/DFF.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Register.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Reg8bit.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Mux8to1.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/mux40to1.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/divide.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Decoder3to8.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/dec16to40.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Zext6b.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/shift1.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Sext6b.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/RegFile.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Mux5to1.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Mux4to1_3bit.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Mux4to1.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/Mux2to1.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/memory.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/ctrlckt.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/concat.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/ALU.v\" into library work
+Analyzing Verilog file \"C:/coproj/proj/WorkingFinal.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 27: Size mismatch in connection of port <in_Reg1>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 36: Size mismatch in connection of port <in_Reg1>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 37: Size mismatch in connection of port <in_Reg1>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 38: Size mismatch in connection of port <in_Reg1>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 57: Size mismatch in connection of port <in_Reg1>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 58: Size mismatch in connection of port <in_Reg1>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 60: Size mismatch in connection of port <in3>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 19: Size mismatch in connection of port <in_Reg1>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/memory.v" Line 39: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/memory.v" Line 41: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/memory.v" Line 42: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/memory.v" Line 44: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/memory.v" Line 45: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/memory.v" Line 38: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 25: Size mismatch in connection of port <in_Reg1>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/WorkingFinal.v" Line 29: Size mismatch in connection of port <in3>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/RegFile.v" Line 16: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/RegFile.v" Line 17: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/RegFile.v" Line 18: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/coproj/proj/RegFile.v" Line 19: Size mismatch in connection of port <reg_Write>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 57524 KB
+Fuse CPU Usage: 93 ms
+Compiling module ctrlckt
+Compiling module DFF
+Compiling module Register
+Compiling module Mux2to1
+Compiling module dec16to40
+Compiling module Reg8bit
+Compiling module mux40to1
+Compiling module Memory
+Compiling module Mux4to1
+Compiling module Mux4to1_3bit
+Compiling module Decoder3to8
+Compiling module Mux8to1
+Compiling module RegFile
+Compiling module shiftconcat
+Compiling module Sext6b
+Compiling module shift1
+Compiling module Zext6b
+Compiling module Mux5to1
+Compiling module divide
+Compiling module ALU
+Compiling module WorkingFinal
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable C:/coproj/proj/testbench_isim_beh.exe
+Fuse Memory Usage: 64056 KB
+Fuse CPU Usage: 218 ms

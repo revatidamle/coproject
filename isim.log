@@ -1,0 +1,110 @@
+ISim log file
+Running: C:\coproj\proj\testbench_isim_beh.exe -gui -tclbatch isim.cmd -wdb C:/coproj/proj/testbench_isim_beh.wdb 
+ISim M.63c (signature 0xb869381d)
+This is a Full version of ISim.
+WARNING:  For instance wf/PC/, width 16 of formal port in_Reg1 is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr0/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr0/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr1/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr1/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr2/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr2/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr3/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr3/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr4/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr4/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr5/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance mem1/rr5/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/IR/, width 16 of formal port in_Reg1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/IR/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/DMR/, width 16 of formal port in_Reg1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/DMR/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance wf/DMR/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/MemToReg/, width 16 of formal port in3 is not equal to width 32 of actual constant.
+WARNING:  For instance rfile1/R1/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance rfile1/R1/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance rfile1/R2/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance rfile1/R2/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance rfile1/R3/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance rfile1/R3/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance rfile1/R4/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance rfile1/R4/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcA/, width 16 of formal port in_Reg1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcA/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcA/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcB/, width 16 of formal port in_Reg1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcB/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcB/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcC/, width 16 of formal port in_Reg1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcC/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance wf/RegAluSrcC/, width 1 of formal port reg_Write1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/HI/, width 16 of formal port in_Reg1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/HI/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance wf/LO/, width 16 of formal port in_Reg1 is not equal to width 32 of actual constant.
+WARNING:  For instance wf/LO/, width 1 of formal port reg_Write is not equal to width 32 of actual constant.
+WARNING:  For instance wf/PCSrc/, width 16 of formal port in3 is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ memout=xxxxxxxxxxxxxxxx | ccpcwrite=x ,ccirwrite=x ,ccA=x,ccB=x,ccC=xxx,opcodereg=xxxx,irout=xxxxxxxxxxxxxxxx,ccaluop=xxxx,AluOutLo=xxxxxxxxxxxxxxxx,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=xxxxxxxxxxxxxxxx,ALUInB=xxxxxxxxxxxxxxxx ,ALUInC=0000000000000000,PCin=xxxxxxxxxxxxxxxx,PCout=xxxxxxxxxxxxxxxx,MemAddr=xxxxxxxxxxxxxxxx | RFinB=xxx, OutBusB=xxxxxxxxxxxxxxxx | DMRout=xxxxxxxxxxxxxxxx,RegWD1=xxxxxxxxxxxxxxxx
+RESET DONE
+ memout=xxxxxxxxxxxxxxxx | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=000,opcodereg=xxxx,irout=xxxxxxxxxxxxxxxx,ccaluop=0000,AluOutLo=xxxxxxxxxxxxxxxx,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=xxxxxxxxxxxxxxxx,ALUInB=0000000000000010 ,ALUInC=xxxxxxxxxxxxxxxx,PCin=xxxxxxxxxxxxxxxx,PCout=xxxxxxxxxxxxxxxx,MemAddr=xxxxxxxxxxxxxxxx | RFinB=xxx, OutBusB=xxxxxxxxxxxxxxxx | DMRout=xxxxxxxxxxxxxxxx,RegWD1=xxxxxxxxxxxxxxxx
+RESET DONE
+ memout=1000111000000101 | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=000,opcodereg=xxxx,irout=xxxxxxxxxxxxxxxx,ccaluop=0000,AluOutLo=xxxxxxxxxxxxxxxx,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000000,ALUInB=0000000000000010 ,ALUInC=xxxxxxxxxxxxxxxx,PCin=xxxxxxxxxxxxxxxx,PCout=0000000000000000,MemAddr=0000000000000000 | RFinB=xxx, OutBusB=xxxxxxxxxxxxxxxx | DMRout=xxxxxxxxxxxxxxxx,RegWD1=xxxxxxxxxxxxxxxx
+RESET DONE
+ memout=1000111000000101 | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=000,opcodereg=xxxx,irout=xxxxxxxxxxxxxxxx,ccaluop=0000,AluOutLo=xxxxxxxxxxxxxxxx,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000000,ALUInB=0000000000000010 ,ALUInC=xxxxxxxxxxxxxxxx,PCin=xxxxxxxxxxxxxxxx,PCout=0000000000000000,MemAddr=0000000000000000 | RFinB=xxx, OutBusB=xxxxxxxxxxxxxxxx | DMRout=1000111000000101,RegWD1=1000111000000101
+RESET DONE
+RESET DONE
+______________________________________________
+STATE 1
+ memout=1000111000000101 | ccpcwrite=1 ,ccirwrite=1 ,ccA=0,ccB=0,ccC=000,opcodereg=1000,irout=xxxxxxxxxxxxxxxx,ccaluop=1111,AluOutLo=0000000000000010,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000000,ALUInB=0000000000000010 ,ALUInC=xxxxxxxxxxxxxxxx,PCin=0000000000000010,PCout=0000000000000000,MemAddr=0000000000000000 | RFinB=xxx, OutBusB=xxxxxxxxxxxxxxxx | DMRout=1000111000000101,RegWD1=1000111000000101
+______________________________________________
+STATE 2
+ memout=1001011000000101 | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=001,opcodereg=1000,irout=1000111000000101,ccaluop=1100,AluOutLo=0000000000001100,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000010,ALUInB=0000000000000010 ,ALUInC=0000000000001010,PCin=0000000000001100,PCout=0000000000000010,MemAddr=0000000000000010 | RFinB=111, OutBusB=xxxxxxxxxxxxxxxx | DMRout=1000111000000101,RegWD1=1000111000000101
+______________________________________________
+STATE 3
+ memout=1001011000000101 | ccpcwrite=0 ,ccirwrite=0 ,ccA=1,ccB=0,ccC=010,opcodereg=1000,irout=1000111000000101,ccaluop=1000,AluOutLo=0000000000000110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000001,ALUInB=0000000000000010 ,ALUInC=0000000000000101,PCin=0000000000000110,PCout=0000000000000010,MemAddr=0000000000000010 | RFinB=111, OutBusB=xxxxxxxxxxxxxxxx | DMRout=1001011000000101,RegWD1=1001011000000101
+______________________________________________
+State 4
+ memout=xxxxxxxxxxxxxxxx | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=100,opcodereg=1000,irout=1000111000000101,ccaluop=1110,AluOutLo=0000000000000110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000010,ALUInB=0000000000000010 ,ALUInC=0000000000000101,PCin=0000000000000110,PCout=0000000000000010,MemAddr=0000000000000110 | RFinB=111, OutBusB=xxxxxxxxxxxxxxxx | DMRout=1001011000000101,RegWD1=1001011000000101
+______________________________________________
+State 5
+ memout=1001011000000101 | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=000,opcodereg=1000,irout=1000111000000101,ccaluop=1110,AluOutLo=0000000000000110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000010,ALUInB=0000000000000010 ,ALUInC=xxxxxxxxxxxxxxxx,PCin=0000000000000110,PCout=0000000000000010,MemAddr=0000000000000010 | RFinB=111, OutBusB=xxxxxxxxxxxxxxxx | DMRout=xxxxxxxxxxxxxxxx,RegWD1=xxxxxxxxxxxxxxxx
+______________________________________________
+STATE 1
+ memout=1001011000000101 | ccpcwrite=1 ,ccirwrite=1 ,ccA=0,ccB=0,ccC=000,opcodereg=1001,irout=1000111000000101,ccaluop=1111,AluOutLo=0000000000000100,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000010,ALUInB=0000000000000010 ,ALUInC=xxxxxxxxxxxxxxxx,PCin=0000000000000100,PCout=0000000000000010,MemAddr=0000000000000010 | RFinB=111, OutBusB=xxxxxxxxxxxxxxxx | DMRout=1001011000000101,RegWD1=1001011000000101
+______________________________________________
+STATE 2
+ memout=1111000011110000 | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=001,opcodereg=1001,irout=1001011000000101,ccaluop=1100,AluOutLo=0000000000001110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000100,ALUInB=0000000000000010 ,ALUInC=0000000000001010,PCin=0000000000001110,PCout=0000000000000100,MemAddr=0000000000000100 | RFinB=011, OutBusB=0000000000001111 | DMRout=1001011000000101,RegWD1=1001011000000101
+______________________________________________
+STATE 3
+ memout=1111000011110000 | ccpcwrite=0 ,ccirwrite=0 ,ccA=1,ccB=0,ccC=010,opcodereg=1001,irout=1001011000000101,ccaluop=1001,AluOutLo=0000000000000110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000001,ALUInB=0000000000000010 ,ALUInC=0000000000000101,PCin=0000000000000110,PCout=0000000000000100,MemAddr=0000000000000100 | RFinB=011, OutBusB=0000000000001111 | DMRout=1111000011110000,RegWD1=1111000011110000
+______________________________________________
+State 4
+ memout=xxxxxxxxxxxxxxxx | ccpcwrite=0 ,ccirwrite=0 ,ccA=1,ccB=0,ccC=100,opcodereg=1001,irout=1001011000000101,ccaluop=1110,AluOutLo=0000000000000110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000001,ALUInB=0000000000000010 ,ALUInC=0000000000000101,PCin=0000000000000110,PCout=0000000000000100,MemAddr=0000000000000110 | RFinB=011, OutBusB=0000000000001111 | DMRout=1111000011110000,RegWD1=1111000011110000
+______________________________________________
+STATE 1
+ memout=1111000011110000 | ccpcwrite=1 ,ccirwrite=1 ,ccA=0,ccB=0,ccC=000,opcodereg=xxxx,irout=1001011000000101,ccaluop=1111,AluOutLo=0000000000000110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000100,ALUInB=0000000000000010 ,ALUInC=xxxxxxxxxxxxxxxx,PCin=0000000000000110,PCout=0000000000000100,MemAddr=0000000000000100 | RFinB=011, OutBusB=0000000000001111 | DMRout=xxxxxxxxxxxxxxxx,RegWD1=xxxxxxxxxxxxxxxx
+______________________________________________
+STATE 2
+ memout=0000000000001111 | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=001,opcodereg=xxxx,irout=1111000011110000,ccaluop=1100,AluOutLo=1111111111100110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000110,ALUInB=0000000000000010 ,ALUInC=1111111111100000,PCin=1111111111100110,PCout=0000000000000110,MemAddr=0000000000000110 | RFinB=110, OutBusB=xxxxxxxxxxxxxxxx | DMRout=1111000011110000,RegWD1=1111000011110000
+______________________________________________
+STATE 3
+ memout=0000000000001111 | ccpcwrite=0 ,ccirwrite=0 ,ccA=0,ccB=0,ccC=001,opcodereg=xxxx,irout=1111000011110000,ccaluop=1100,AluOutLo=1111111111100110,AluOutHi=xxxxxxxxxxxxxxxx,ALUInA=0000000000000110,ALUInB=0000000000000010 ,ALUInC=1111111111100000,PCin=1111111111100110,PCout=0000000000000110,MemAddr=0000000000000110 | RFinB=110, OutBusB=xxxxxxxxxxxxxxxx | DMRout=0000000000001111,RegWD1=0000000000001111
+______________________________________________
+STATE 3
+______________________________________________
+STATE 3
+______________________________________________
+STATE 3
+______________________________________________
+STATE 3
+______________________________________________
+STATE 3
+______________________________________________
+STATE 3
+______________________________________________
+STATE 3
